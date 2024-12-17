@@ -1,0 +1,16 @@
+# ninja log v6
+2	633	1733254458254324211	CMakeFiles/MyExecutable.dir/util/TcpConnectionUtility.cpp.o	2354c3284f9e01af
+1	1215	1733254458253268890	CMakeFiles/MyExecutable.dir/main.cpp.o	6d5a13215e091b14
+2	1709	1733254458254113838	CMakeFiles/MyExecutable.dir/util/ClientToServer.cpp.o	31e7821a8ecdccfd
+1	1963	1733254458253608344	CMakeFiles/MyExecutable.dir/util/ClientToMaster.cpp.o	4d43e0a5ca5e6d00
+1963	2032	1733254460215508442	MyExecutable	6d8ff06e32b5718a
+6	1291	1733255133347654389	CMakeFiles/MyExecutable.dir/util/ClientToServer.cpp.o	31e7821a8ecdccfd
+1292	1346	1733255134633027224	MyExecutable	6d8ff06e32b5718a
+4	961	1733874001656500312	CMakeFiles/MyExecutable.dir/main.cpp.o	6d5a13215e091b14
+5	1247	1733874001656832892	CMakeFiles/MyExecutable.dir/util/ClientToMaster.cpp.o	4d43e0a5ca5e6d00
+1248	1365	1733874002899768209	MyExecutable	6d8ff06e32b5718a
+14	1582	1733895876066351587	CMakeFiles/MyExecutable.dir/util/ClientToMaster.cpp.o	4d43e0a5ca5e6d00
+14	1592	1733895876066886542	CMakeFiles/MyExecutable.dir/util/ClientToServer.cpp.o	31e7821a8ecdccfd
+1592	1722	1733895877644619852	MyExecutable	6d8ff06e32b5718a
+14	1441	1733947667139318307	CMakeFiles/MyExecutable.dir/util/ClientToServer.cpp.o	31e7821a8ecdccfd
+1442	1598	1733947668566689679	MyExecutable	6d8ff06e32b5718a

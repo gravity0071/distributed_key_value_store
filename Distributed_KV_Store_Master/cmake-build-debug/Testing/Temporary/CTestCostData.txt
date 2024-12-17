@@ -1,0 +1,6 @@
+KVStoreMapTest 1 0.37571
+test_ConsistentHashingMap 4 0.00282419
+test_KVStoreMap 3 0
+test_clientMainFunction 4 0.0294155
+---
+test_KVStoreMap

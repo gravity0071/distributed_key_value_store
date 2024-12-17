@@ -1,0 +1,5 @@
+/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Client_final/build/CMakeFiles/MyExecutable.dir
+/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Client_final/build/CMakeFiles/edit_cache.dir
+/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Client_final/build/CMakeFiles/rebuild_cache.dir
+/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Client_final/build/_deps/nlohmann_json-build/CMakeFiles/edit_cache.dir
+/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Client_final/build/_deps/nlohmann_json-build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,11 @@
+# ninja log v6
+11	848	1733861001274581498	build.ninja	e704ca1a638e9247
+1	651	1733861001289085360	CMakeFiles/SharedSources.dir/util/Server.cpp.o	4e736c092faad6f9
+1	672	1733861001289211275	CMakeFiles/SharedSources.dir/util/TcpConnectionUtility.cpp.o	e6babfce6f16a9a5
+1	737	1733861001288931278	CMakeFiles/SharedSources.dir/util/KVMap.cpp.o	2ae05998c7fb4c30
+3	1065	1733861001290929170	CMakeFiles/SharedSources.dir/handleHeartbeat/heartbeatMainFunction.cpp.o	f11bce36329c358c
+2	1134	1733861001289508063	CMakeFiles/SharedSources.dir/handleClient/clientMainFunction.cpp.o	34979ae2a93d3aa7
+1	1352	1733861001288655198	CMakeFiles/SharedSources.dir/util/JsonParser.cpp.o	5f9c33ab79c0cb76
+673	1505	1733861001960311373	CMakeFiles/MyExecutable.dir/main.cpp.o	5fcb9f2e50e0008c
+653	1540	1733861001940596493	CMakeFiles/SharedSources.dir/handleLocalCommand/localCommandMainFunction.cpp.o	91af6a350f2ad08d
+1540	1649	1733861002828006659	MyExecutable	b9cf3cca48de2690

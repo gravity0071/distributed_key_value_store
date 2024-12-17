@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Distributed_KV_Store_Master"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\nlohmann_json-src\;CMake Files\cmake-build-debug\_deps\nlohmann_json-src\cmake\;CMake Files\cmake-build-debug\_deps\googletest-src\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyExecutable">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/MyExecutable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/single_include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyExecutable"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyExecutable/fast">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/MyExecutable" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/single_include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyExecutable/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KVStoreMapTest">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/KVStoreMapTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/single_include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 KVStoreMapTest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KVStoreMapTest/fast">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/KVStoreMapTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/single_include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 KVStoreMapTest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_ConsistentHashingMap">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/test_ConsistentHashingMap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/single_include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_ConsistentHashingMap"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_ConsistentHashingMap/fast">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/test_ConsistentHashingMap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/single_include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_ConsistentHashingMap/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_KVStoreMap">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/test_KVStoreMap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/single_include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_KVStoreMap"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_KVStoreMap/fast">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/test_KVStoreMap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/single_include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_KVStoreMap/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_clientMainFunction">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/test_clientMainFunction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/single_include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_clientMainFunction"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_clientMainFunction/fast">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/test_clientMainFunction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_USE_IMPLICIT_CONVERSIONS=1"/>
+					<Add option="-DJSON_DIAGNOSTICS=0"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/single_include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_clientMainFunction/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient/clientMainFunction.cpp">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleClient/clientMainFunction.h">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat/heartbeatMainFunction.cpp">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleHeartbeat/heartbeatMainFunction.h">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand/localCommandMainFunction.cpp">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/handleLocalCommand/localCommandMainFunction.h">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/main.cpp">
+			<Option target="MyExecutable"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/tests/test_ConsistentHashingMap.cpp">
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/tests/test_KVStoreMap.cpp">
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_KVStoreMap"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/tests/test_clientMainFunction.cpp">
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util/ConsistentHashingMap.cpp">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util/ConsistentHashingMap.h">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util/KVStoreMap.cpp">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util/KVStoreMap.h">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util/Server.cpp">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util/Server.h">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util/SharedStringVector.cpp">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util/SharedStringVector.h">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util/TcpConnectionUtility.cpp">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/util/TcpConnectionUtility.h">
+			<Option target="MyExecutable"/>
+			<Option target="KVStoreMapTest"/>
+			<Option target="test_ConsistentHashingMap"/>
+			<Option target="test_KVStoreMap"/>
+			<Option target="test_clientMainFunction"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\nlohmann_json-src\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\nlohmann_json-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/cmake/nlohmann_jsonConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\nlohmann_json-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/nlohmann_json-src/cmake/pkg-config.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\nlohmann_json-src\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/shawnwan/Documents/cpp/Distributed_KV_Store_Master/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

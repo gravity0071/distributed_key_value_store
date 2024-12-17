@@ -1,0 +1,5 @@
+spawn /Users/shawnwan/Documents/cpp/Distributed_KV_Store_Client_final/build/Client
+spawn /Users/shawnwan/Documents/cpp/Distributed_KV_Store_Client_final/build/Client
+Connection to server failed: Operation timed out
+Failed to connect to Master at 127.0.0.1:8080
+Failed to connect to Master. Exiting.
