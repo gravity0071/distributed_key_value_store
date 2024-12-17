@@ -1,1 +1,4 @@
 # distributed_key_value_store
+The aim of this project is to develop an elastic, distributed key-value (KV) store that allows manual addition and removal of servers, managed by a centralized master node. The architecture is designed to optimize scalability and maintain consistency while ensuring efficient interaction between clients and storage servers. The master node serves as the core coordinator, maintaining metadata and directing client requests to the appropriate storage servers based on key locations. 
+
+To achieve the project goals, we implemented a multi-threaded architecture for both the master and server sides. This architecture supports seamless communication, dynamic server management, and high-performance data operations, laying the groundwork for a scalable distributed KV store system.
